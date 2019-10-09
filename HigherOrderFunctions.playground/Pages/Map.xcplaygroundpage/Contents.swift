@@ -47,7 +47,7 @@ let names: [String] = ["mitch", "jonah", "hayden"]
 let capName = names.map { $0.capitalized }
 print(capName) // uppercased() will capitaloze all characters
 
-// compact map doesn't care about nil values
+// compact map doesn't care about nil values, it will ignore nil values
 
 
 
